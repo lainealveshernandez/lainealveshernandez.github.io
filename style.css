@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    color: rgb(255, 132, 198);
+ }
+
+ .welcome {
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 0, 136)
+ }
+
+ .sobre {
+    font-size: 15px;
+    color:rgb(255, 0, 136) ;
+ }
+
+ .title-lista {
+    font-size: 15px;
+    color: rgb(255, 0, 136);
+ }
+
+ .listaHabilidades {
+    font-size: 15px;
+    color:rgb(255, 132, 198)
+ }
+
+ .venha-conhecer-linkedin {
+    color: rgb(255, 0, 123);
+ }
+
+ .minha-foto-link {
+   font-size: 7px;
+   color:rgb(255, 0, 136)
+ }
+
+ .imagem-myself {
+    width:300px
+ }
+/* mouse over link */
+ a:hover {
+    color: #00ff59;
+ }
+/* selected link */
+ a:active {
+    color: rgb(255, 0, 136);
+}
