@@ -16,20 +16,23 @@
      }
 
      .welcome {
-        font-size: 50px;
+        font-size: 30px;
         font-style: italic;
         color: rgb(255, 0, 136)
      }
 
      .sobre {
+        font-size: 15px;
         color:rgb(255, 0, 136) ;
      }
 
      .title-lista {
+        font-size: 15px;
         color: rgb(255, 0, 136);
      }
 
      .listaHabilidades {
+        font-size: 15px;
         color:rgb(255, 132, 198)
      }
 
@@ -37,17 +40,35 @@
         color: rgb(255, 0, 123);
      }
 
+     .minha-foto-link {
+       font-size: 7px;
+       color:rgb(255, 0, 136)
+     }
 
-     
+     .imagem-myself {
+        width:300px
+     }
+/* mouse over link */
+     a:hover {
+        color: #00ff59;
+     }
+/* selected link */
+     a:active {
+        color: rgb(255, 0, 136);
+    }
+
 </style>
 
- <h1 class="welcome">✨ Bem-vindo(a) ao meu portifolio! ✨ </h1>
+ <h1 class="welcome">✨ Bem-vindo(a) ao meu portifólio! ✨ </h1>
  
 <p>Meu nome é Laine Hernandez, na foto abaixo eu estou com meu <i>terminal</i> aberto no laptop em meu segundo dia de aulas na Trybe. Naquele dia, eu aprendi como abixar a extensão 🧛🏻‍♂️ Dracula- Eu amo ver cores e imagens em todos os lugares, entao essa extensão é perfeita! </p>
 
-<img src="1697039747382.jpeg" alt="Woman happy on her second day of classes, there is a laptop on the table" id="photo"> 
+<img class="imagem-myself" src="1697039747382.jpeg" alt="Woman happy on her second day of classes, there is a laptop on the table" id="photo" >
+ </div>
+<div>
+ <a class="minha-foto-link" href="#minha-foto">Minha foto</a>
 </div>
-<a href="#minha-foto">Minha foto</a>
+
 <!-- Abaixo, uma breve descrição sobre mim, destacando algumas informações como nacionalidade e a cidade/estado onde eu moro.
 --> 
 <div>
@@ -66,7 +87,9 @@
     <li> <a class="listaHabilidades"> Facilidade em aprendizado de idiomas </a></li>
     </ul>
 </div>
-    <p class="venha-conhecer-linkedin">Venha conhecer um pouquinho mais sobre a minha carreira na tecnologia na minha pagina do LinkedIn abaixo.</p>
-    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7117900604366090240/" target="_blank">Meu post no LinkedIn!</a>
+<div>
+    <p class="venha-conhecer-linkedin">Venha conhecer um pouquinho mais sobre a minha carreira na tecnologia na minha pagina do LinkedIn abaixo:</p>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7117900604366090240/" target="_blank">Meu post no LinkedIn!</a> 
+    </div>
 </body>
 </html>
